@@ -1,0 +1,22 @@
+.intro{
+    text-align: center;
+     display: flex;
+
+     height: 90vh;
+     flex-direction: column;
+   /* justify-content: space-between; */
+
+   gap: 3rem;
+}
+.intro-footer{
+
+    display: flex;
+
+  align-items: center;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  text
+}
+

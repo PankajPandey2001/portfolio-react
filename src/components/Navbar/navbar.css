@@ -8,6 +8,7 @@
 
    align-items: center;
     
+   /* height: 10vh; */
 
     /* position: absolute; */
 }
@@ -32,4 +33,18 @@
 
     border-radius: 50px;
 
+    background-image: linear-gradient(to right , rgb(211, 98, 98) 30% , orange);
+
+    padding: 1rem;
+
+    font-size: 15px;
+
+    transition: 0.5s;  
+
+    /* so that smooth transitioning ho */
+  
+}
+.nav-connect:hover{
+
+    transform: scale(1.05);
 }

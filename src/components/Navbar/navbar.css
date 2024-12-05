@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+
+    padding-left: 7rem;
+    padding-right: 6rem;
+
+
+   align-items: center;
+    
+
+    /* position: absolute; */
+}
+
+.nav-image{
+
+    height: 6rem;
+}
+.nav-menu{
+    display: flex;
+    
+    align-items: center;
+
+    gap: 60px; 
+
+    /* to give space between flex items use gap: property  */
+
+    list-style: none;
+   
+}
+.nav-connect{
+
+    border-radius: 50px;
+
+}

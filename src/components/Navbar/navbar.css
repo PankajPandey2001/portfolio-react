@@ -11,11 +11,13 @@
    /* height: 10vh; */
 
     /* position: absolute; */
+
+    margin-top: 1rem;
 }
 
 .nav-image{
 
-    height: 6rem;
+    height: 3rem;
 }
 .nav-menu{
     display: flex;
@@ -33,7 +35,7 @@
 
     border-radius: 50px;
 
-    background-image: linear-gradient(to right , rgb(211, 98, 98) 30% , orange);
+    background-image: linear-gradient(to right , rgb(199, 115, 181) 50% , orange);
 
     padding: 1rem;
 

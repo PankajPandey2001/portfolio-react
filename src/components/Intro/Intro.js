@@ -1,23 +1,25 @@
 import './Intro.css';
 
+import img from '../../assets/port-image.png'
+
 const Intro = () => {
 
     return (
         <div className='intro'>
 
-            <img src='' alt='image laoding' />
+            <img  src={img} alt='image laoding' />
 
-            <h1> I'm Pankaj Pandey , full stack developer </h1>
+            <h1 className='intro-heading'> <span className='intro-color'> I'm Pankaj </span> <span className='intro-color1'>Pandey</span>, full stack developer </h1>
 
-            <p> I am a full stck developer from India , with 2 years of experience in multiple companies like Wells Fargo , SkillsYard , Inept Studio Pvt Ltd </p>
+            <p className='intro-description'> I am a full stack developer from India , with 2 years of experience in multiple companies like Wells Fargo , SkillsYard , Inept Studio ,Coding Block </p>
 
             <div className='intro-footer'>
 
-                <div>
+                <div className='first-div' >
                     Connect with me 
                 </div>
 
-                <div>
+                <div className='second-div'>
 
                     My resume
                 </div>

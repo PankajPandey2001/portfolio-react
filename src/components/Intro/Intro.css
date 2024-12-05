@@ -1,12 +1,15 @@
 .intro{
-    text-align: center;
+    
+    margin-top: 2rem;
      display: flex;
 
+
+     align-items: center;
      height: 90vh;
      flex-direction: column;
    /* justify-content: space-between; */
 
-   gap: 3rem;
+   gap: 2rem;
 }
 .intro-footer{
 
@@ -17,6 +20,61 @@
   margin-left: auto;
   margin-right: auto;
 
-  text
+   gap: 3rem;
+}
+.intro img{
+
+    height: 20rem;
+    width: 20rem;
+
+    border-radius: 50%;
+
+}
+.intro-heading{
+
+    font-size: 3rem;
+    width: 35rem;
+    text-align: center;
+
+}
+
+.intro-color{
+
+    color: rgb(199, 115, 181)
+
+}
+.intro-color1{
+
+    color: rgb(234, 186, 96);
+}
+.intro-description{
+
+    font-size: 1.2rem;
+    width: 40rem;
+    text-align: center;
+}
+.intro-footer div{
+
+    border-radius: 2rem;
+
+    padding: 1.3rem;
+
+}
+.first-div{
+
+    background-image: linear-gradient(to right , rgb(199, 115, 181) 50% , rgb(193, 147, 62));
+    transition: 0.5s;
+}
+.first-div:hover{
+    transform: scale(1.1);
+}
+.second-div{
+
+   border: 2px solid white;
+
+   transition: 0.5s;
+}
+.second-div:hover{
+    transform: scale(1.1);
 }
 

@@ -1,10 +1,14 @@
 .navbar{
+
+    position: relative ; 
     display: flex;
     justify-content: space-between;
 
     padding-left: 7rem;
     padding-right: 6rem;
 
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 
    align-items: center;
     
@@ -12,11 +16,34 @@
 
     /* position: absolute; */
 
-    margin-top: 1rem;
+    /* margin-top: 0.5rem; */
+
+    height: 5vh;
+}
+.main-logo{
+
+    position: relative;
+
+
 }
 
+.underline-img1{
+
+    height: 1.4rem;
+
+    position: absolute;
+
+    top: 26px;
+
+    left: 120px;
+
+    z-index: -1
+    ;
+}
 .nav-image{
 
+    
+    
     height: 3rem;
 }
 .nav-menu{
@@ -31,22 +58,39 @@
     list-style: none;
    
 }
+
+.underline-img{
+
+    position: absolute;
+
+
+    z-index: -1;
+    top: 40px;
+
+    left: 500px;
+}
 .nav-connect{
 
     border-radius: 50px;
 
-    background-image: linear-gradient(to right , rgb(199, 115, 181) 50% , orange);
+    background-image: linear-gradient(to right , rgb(204, 35, 167)20% , rgb(203, 139, 18)); /* Define your gradient colors */
 
     padding: 1rem;
 
     font-size: 15px;
 
-    transition: 0.5s;  
+    transition: 0.5s ease;  
 
+    display: inline-block;
     /* so that smooth transitioning ho */
   
 }
 .nav-connect:hover{
 
     transform: scale(1.05);
+    border: 2px solid white;
+
+    z-index: 10;
+
+    /* height: 100vh; */
 }

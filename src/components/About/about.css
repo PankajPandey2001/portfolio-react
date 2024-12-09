@@ -1,0 +1,168 @@
+.about{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+    height: 100vh;
+
+
+    
+}
+
+
+.about-top{
+
+    position: absolute;
+
+
+    margin-bottom: 3rem;
+}
+
+
+
+
+.about h2
+{
+
+    font-size: 4rem;
+
+     font-weight: 300;
+    margin-bottom: 4rem;
+}
+
+.about-position{
+
+
+    height: 1rem;
+    /* ye height bas isliye di hai taaki img jo niche hai uski position ko relative karke adjust kar sake apne accoridng */
+    position: relative;
+}
+.about-position img{
+
+    height: 3rem;
+
+    position: absolute;
+
+    top: -95px;
+
+    z-index: -1;
+
+
+}
+.about-description{
+
+    display: flex;
+    gap: 3rem ;
+
+
+    margin-right: 5em;
+
+    margin-left: 5rem;
+    
+}
+.about-description img{
+
+    flex: 1;
+    /* important property it means ki image 1 part gheregi aur niche .about-content ko flex:3 diya hai matlab
+    wo 3 part gheregi  */
+
+    width: 3rem;
+    height: 25rem;
+
+    border-radius: 1rem;
+}
+
+
+
+.about-content
+{
+    flex: 3
+    ;
+
+ 
+}
+.about-first p{
+
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+
+.about-footer{
+
+    display: flex;
+    gap: 8rem;
+    align-items: center;
+    margin-top: 2.5rem;
+
+}
+
+.about-number{
+    text-align: center;
+
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin: 0.6rem;
+
+    background: linear-gradient(to right , rgb(199, 115, 181)30% , rgb(193, 147, 62)); /* Define your gradient colors */
+    background-clip: border-box; 
+    -webkit-background-clip: text; /* Clip the background to the text */
+    -webkit-text-fill-color: transparent; /* Make the text fill transparent */
+}
+
+
+.about-seperator{
+
+    font-size: 5rem;
+    font-weight: 1 ; 
+}
+.about-second-one{
+
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    transition: 0.3s ease;
+}
+.about-second-one:hover{
+
+    transform: scale(1.05);
+}
+.about-secondd{
+
+  
+    height: 0.4rem;
+    border-radius: 1rem;
+    background-image: linear-gradient(to right ,   rgb(199, 115, 181)30% , rgb(193, 147, 62) );
+}
+.border1{
+
+    width: 40rem;
+}
+.border2{
+
+    width: 30rem;
+}
+.border3{
+
+    width: 20rem;
+}
+.border4{
+
+    width: 40rem;
+}
+
+.tr{
+
+    transition: 0.3s;
+}
+.tr:hover{
+
+    transform: scale(1.2);
+}

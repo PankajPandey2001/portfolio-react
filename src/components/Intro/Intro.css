@@ -1,11 +1,11 @@
 .intro{
     
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
      display: flex;
 
 
      align-items: center;
-     height: 90vh;
+     height: 95vh;
      flex-direction: column;
    /* justify-content: space-between; */
 
@@ -24,10 +24,13 @@
 }
 .intro img{
 
-    height: 20rem;
-    width: 20rem;
+    height: 21rem;
+    width: 21rem;
 
     border-radius: 50%;
+
+    margin-top: 2rem;
+
 
 }
 .intro-heading{
@@ -40,13 +43,16 @@
 
 .intro-color{
 
-    color: rgb(199, 115, 181)
+    background: linear-gradient(to right , rgb(235, 63, 198)20% , rgb(224, 162, 47)); /* Define your gradient colors */
+    background-clip: border-box; 
+    -webkit-background-clip: text; /* Clip the background to the text */
+    -webkit-text-fill-color: transparent; /* Make the text fill transparent */
 
 }
-.intro-color1{
+/* .intro-color1{
 
     color: rgb(234, 186, 96);
-}
+} */
 .intro-description{
 
     font-size: 1.2rem;
@@ -59,22 +65,30 @@
 
     padding: 1.3rem;
 
+    cursor: pointer;
+
 }
 .first-div{
 
-    background-image: linear-gradient(to right , rgb(199, 115, 181) 50% , rgb(193, 147, 62));
+    background: linear-gradient(to right , rgb(235, 63, 198)20% , rgb(224, 162, 47)); /* Define your gradient colors */
     transition: 0.5s;
 }
 .first-div:hover{
-    transform: scale(1.1);
+    transform: scale(1.08);
+    border: 2px solid white;
 }
 .second-div{
 
    border: 2px solid white;
 
    transition: 0.5s;
+
+   padding-left: 1.9rem !important;
+   padding-right: 1.9rem !important;
 }
 .second-div:hover{
-    transform: scale(1.1);
+    transform: scale(1.08);
+
+    border: 2px solid rgb(215, 105, 215);
 }
 

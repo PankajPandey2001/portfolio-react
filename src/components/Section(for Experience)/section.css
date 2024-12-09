@@ -1,0 +1,59 @@
+.section{
+
+
+
+    display: flex;
+
+    flex-direction: column;
+    border: 2px solid white ;
+
+
+
+    border-radius: 1rem;
+
+    text-align:start;
+
+    padding-left: 1.8rem;
+
+    justify-content: space-evenly;
+    transition: 0.3s;
+
+    /* width: minmax(120px , 250px);
+   
+    */
+
+    height: 30vh;
+
+
+}
+
+.section:hover{
+
+     background-image: linear-gradient(to right , rgb(233, 154, 216)30% , rgb(236, 196, 123));
+
+     transform: scale(1.1);
+
+     border: 2px solid rgb(230, 100, 187);
+}
+
+
+
+.section-topic {
+ 
+    font-size: 1.5rem;
+    background: linear-gradient(to right , rgb(204, 35, 167)20% , rgb(203, 139, 18)); /* Define your gradient colors */
+    background-clip: border-box; 
+    -webkit-background-clip: text; /* Clip the background to the text */
+    -webkit-text-fill-color: transparent; /* Make the text fill transparent */
+    
+}
+
+.section-footer{
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 1rem
+    ;
+}

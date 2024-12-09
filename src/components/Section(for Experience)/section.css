@@ -57,3 +57,7 @@
     gap: 1rem
     ;
 }
+.section-read-more{
+
+    cursor: pointer;
+}

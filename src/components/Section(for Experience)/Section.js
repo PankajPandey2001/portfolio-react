@@ -1,7 +1,27 @@
+import { BiHeading } from 'react-icons/bi';
 import './section.css' ; 
 import { FaArrowRightLong } from "react-icons/fa6";
 
-const Section = ({number , topic , content }) =>{
+const Section = ({number , topic , content  , para1 , para2 , handleRead , handleContent}) =>{
+
+
+
+
+    const handleClick = () =>{
+
+         handleRead(true) ; 
+
+         console.log("click ho rahai") ; 
+
+         const obj = {
+             heading : topic ,
+             para1 :  para1 , 
+             para2 : para2,
+         }
+
+         handleContent(obj) ; 
+
+    }
 
     return (
 
@@ -16,8 +36,10 @@ const Section = ({number , topic , content }) =>{
 
           <div className="section-footer">
 
-             <p> Read more</p>
+             <p className='section-read-more' onClick={handleClick}> Read more</p>
 
+
+             
              <FaArrowRightLong />
           </div>
         </div>

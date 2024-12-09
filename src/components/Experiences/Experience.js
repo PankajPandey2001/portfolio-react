@@ -2,6 +2,8 @@ import './experience.css';
 
 import Section from '../Section(for Experience)/Section';
 
+import img1 from '../../assets/nav_underline.svg' ; 
+
 
 const Experience = () =>{
 
@@ -12,6 +14,14 @@ const Experience = () =>{
 
 
              <h1 className='experience-heading'> My Experience</h1>
+
+
+             <div className='experience-position'>  {/*/ ye div banaya hai taaki isko position ko relative karke 
+                  img ko apne according kahin bhi set kar sakein
+                // */}
+
+                <img src={img1}></img>
+             </div>
       <div className='experience-grid'>
 
       

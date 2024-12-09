@@ -15,8 +15,25 @@
 
     font-size: 3rem;
 
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
     padding-top: 2rem;
+}
+
+.experience-position{
+
+    position: relative;
+
+    height: 1rem;
+}
+.experience-position img{
+
+    position: absolute;
+    height: 3rem;
+
+    top: -110px;
+    left: 750px;
+
+    z-index: -1;
 }
 
 .experience-grid{

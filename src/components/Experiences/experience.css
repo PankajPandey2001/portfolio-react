@@ -1,5 +1,16 @@
 .experience{
 
+/* now ye position realtive isliye kari hai kyonki , when i want to expand the read more part , i want a 
+window to pop up , which will give more info on the experience ; 
+
+now i want that pop up to come relative to the experience section only , means it will be visible in experience
+section only and not on the all sections ( means when i will scroll down or up that pop up will also move up or down 
+realtively to the expereience section ) therefore for implementing that , we need to make .experirence position as 
+relative ) */
+
+
+    position: relative;   
+
     height: 100vh;
 
     text-align: center;
@@ -59,7 +70,79 @@
     display: none;
 }
 
+
+
+/*
+
+
+  MOST IMPORTANT PART OF THE CODE IS BELOW , 
+
+
+  MEANS WHEN I WILL CLICK ON THE READ MORE , A WINDOW WILL POP UP JISME AUR ACCHE SE CONTENT LIKHA HOGA ; 
+  REGARDING MY WORK IN THAT INTERNSHIP 
+*/
 .display{
 
+/* 
+    now i want this window to pop up on clicking read more and also i want it to be visible 
+    in experience section only so first i made the position of parent container that is .experience as rellative
+    and now we need to make position of .display as absolute ; */
+
+    position : absolute; 
+
+
+    top: 22%;
+    left: 22%;
+
+
+
+    padding: 2rem 1rem 1rem 1rem ; 
+
+    height: 50vh;
+
+    width: 50vw;
+
+    z-index: 1000;
+
+    background-image: linear-gradient(to right , rgb(233, 154, 216)30% , rgb(236, 196, 123));
+
+
+  border-radius: 1rem;
+}
+.window-pop{
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: start;
     
+
+    gap: 2rem ;
+}
+
+.window-pop p{
+
+    font-size: 1.2rem;
+}
+.window-pop div h1{
+   font-size: 3rem;
+}
+
+.cross-icon{
+
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+
+     justify-content: space-between;
+}
+.window-close{
+
+    transition: 0.3s;
+}
+.window-close:hover{
+    transform: scale(1.5);
+
 }

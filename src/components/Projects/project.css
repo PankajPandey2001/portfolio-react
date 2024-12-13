@@ -1,0 +1,61 @@
+.project{
+
+
+    
+    display: flex;
+
+    flex-direction: column;
+
+
+}
+.project-heading{
+
+    text-align: center
+    ;
+    font-size: 3rem;
+
+    margin-bottom: 3rem;
+}
+.project-content{
+
+    max-width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: grid;
+
+    gap: 2rem;
+    grid-template-columns: repeat(3 , minmax(4rem , 80vw));
+
+
+}
+
+.project-heading-underline{
+
+    position: absolute; 
+}
+
+
+.project-heading-underline img{
+
+    height: 2.5rem;
+    position: relative ; 
+
+    top: 2rem;
+    left: 45rem;
+
+    z-index: -1;
+}
+
+
+
+/* now for each section of experience */
+
+
+.project-section-content{
+
+    height: 25vh;
+
+    background-image: linear-gradient(to right , rgb(233, 154, 216)30% , rgb(236, 196, 123));
+
+}

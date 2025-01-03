@@ -4,6 +4,14 @@ import './project.css' ;
 
 import image from '../../assets/nav_underline.svg'
 
+import notesAppImage from '../../assets/notes-app.png';
+import pingpongImage from '../../assets/pingpong.png';
+
+import firstPortfolio from '../../assets/first-portfolio.png' ; 
+
+import toDo from '../../assets/ToDo.png' ; 
+
+
 const Project = () =>{
 
 
@@ -26,13 +34,14 @@ const Project = () =>{
 
             <div className="project-content">
 
-                  <Project_section name = "react-notes" />
+                  <Project_section  path={notesAppImage}/>
 
-                  <Project_section name = "Ping Pong game" />
+                  <Project_section  path={pingpongImage} />
 
-                  <Project_section name = "Portfolio" />
+                  <Project_section  path={firstPortfolio} />
 
-                  <Project_section name = "To-do-list" />
+                  <Project_section  path={toDo} />
+
 
           
             </div>

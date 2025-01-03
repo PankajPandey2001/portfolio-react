@@ -6,6 +6,9 @@
 
     flex-direction: column;
 
+    height: 100vh;
+
+
 
 }
 .project-heading{
@@ -14,7 +17,9 @@
     ;
     font-size: 3rem;
 
-    margin-bottom: 3rem;
+    margin-top: 1rem;
+
+    margin-bottom: 5rem;
 }
 .project-content{
 
@@ -52,10 +57,35 @@
 /* now for each section of experience */
 
 
-.project-section-content{
+/* .project-section-content{
 
-    height: 25vh;
+    height: 33vh;
 
-    background-image: linear-gradient(to right , rgb(233, 154, 216)30% , rgb(236, 196, 123));
+    border-radius: 1rem;
+    transition: 0.3s;
+
 
 }
+.project-section-content:hover{
+
+    transform: scale(1.1);
+}
+
+
+.project-section-content img{
+     
+
+
+
+    border-radius: 1rem;
+
+    width: 100%;
+
+   
+    
+    
+
+} */
+
+
+

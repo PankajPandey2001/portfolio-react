@@ -1,19 +1,37 @@
-import './project.css' ; 
+import './project.css';
 
-const Project_section = ({name}) =>{
+const Project_section = ({ path }) => {
 
 
     return (
 
-        <div className="project-section-content">
+
+        // here i have to make card so 
 
 
-            <p>
-                {name}
-            </p>
+
+        <div className = "project-section">
+
+          
+            
+            <div className="project-section-front">
+
+
+
+                <img src={path} alt='....' />
+
+            </div>
+
+
+            <div className="project-section-back">  
+            
+                   
+                  
+            </div>
         </div>
-    ) ; 
+
+    );
 
 }
 
-export default Project_section ; 
+export default Project_section; 

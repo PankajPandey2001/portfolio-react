@@ -1,5 +1,5 @@
 import './project.css';
-
+//added commnet
 const Project_section = ({ path }) => {
 
 

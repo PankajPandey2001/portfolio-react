@@ -7,10 +7,12 @@
  body{
 
    height: 100vh ;
-   background-color : #161513; 
-      color: white;
+   background-color : #161513 !important; 
+      color: white !important;
 
-      font-family: 'outfit';
+
+        font-family: 'outfit', sans-serif !important;
+   
  }
 
 

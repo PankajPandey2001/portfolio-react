@@ -1,5 +1,5 @@
 import './project.css';
-//added commnet
+//added
 const Project_section = ({ path }) => {
 
 
@@ -26,7 +26,7 @@ const Project_section = ({ path }) => {
             <div className="project-section-back">  
             
                    
-                  
+                  Heading
             </div>
         </div>
 

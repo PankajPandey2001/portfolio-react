@@ -4,6 +4,8 @@ import { ImLocation } from "react-icons/im";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { Form, FormGroup , Button , Label, Input } from 'reactstrap';
+import './contact.css' ;
+
 
 const Contact = () => {
 
@@ -14,6 +16,10 @@ const Contact = () => {
                 Get in touch
             </h1>
 
+            <div className="contact-flex">
+
+
+        
             <div className="contact-content">
                 <h2>  Lets talk </h2>
 
@@ -39,6 +45,7 @@ const Contact = () => {
                     <ImLocation />
                     <p> pankajpnd2001@gmail.com</p>
                 </div>
+
 
             </div>
 
@@ -79,6 +86,8 @@ const Contact = () => {
                         Submit
                     </Button>
                 </Form>
+            </div>
+
             </div>
 
         </div>

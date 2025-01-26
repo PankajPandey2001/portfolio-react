@@ -1,0 +1,11 @@
+.contact{
+    height: 100vh;
+    background-color: red;
+
+}
+
+.contact-flex{
+
+    display: flex;
+    flex-direction: row;
+}

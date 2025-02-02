@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import "./navbar.css";
 import image from '../../assets/Logo1.png';
 import img1 from '../../assets/nav_underline.svg' ; 
 
 const Navbar = () => {
+
+     const [menu , setMenu] = useState('home') ; 
+
 
     return (
 
@@ -12,29 +15,30 @@ const Navbar = () => {
             <div className="main-logo">
 
             <img className="nav-image" src={image} alt="logo-here" />
-
-            <img className="underline-img1" src={img1} alt="image"></img>
+{/* 
+            <img className="underline-img1" src={img1} alt="image"></img> */}
             </div>
 
 
             <ul className="nav-menu">
                 <li>
-                    Home
-
-                    <img className="underline-img" src={img1} alt="image"></img>
+                     <p onClick={()=>{setMenu('Home')}} > Home </p>{menu === 'Home' ? <img src={img1} alt="underline"/> : <></>}      
                 </li>
 
                 <li>
-                    About Me
+                    <p onClick={()=>{setMenu('About')}} > About Me </p> {menu === 'About' ? <img src={img1} alt="underline"/> : <></>}
                 </li>
+
                 <li>
-                    Services
+                    <p onClick={()=>{setMenu('Services')}}> Services</p> {menu === 'Services' ? <img src={img1} alt="underline"/> : <></>}
                 </li>
+
                 <li>
-                    Portfolio
+                <p onClick={()=>{setMenu('Portfolio')}}> Portfolio</p> {menu === 'Portfolio' ? <img src={img1} alt="underline"/> : <></>}
                 </li>
+
                 <li>
-                    Contact
+                <p onClick={()=>{setMenu('Contact')}}> Contact</p> {menu === 'Contact' ? <img src={img1} alt="underline"/> : <></>}
                 </li>
 
 

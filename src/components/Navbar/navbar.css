@@ -1,13 +1,16 @@
 .navbar{
 
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     position: relative ; 
     display: flex;
     justify-content: space-between;
 
-    padding-left: 7rem;
+    padding-left: 13rem;
     padding-right: 6rem;
 
-    padding-top: 1rem;
+    padding-top: 2rem;
     padding-bottom: 1rem;
 
    align-items: center;
@@ -27,7 +30,7 @@
 
 }
 
-.underline-img1{
+/* .underline-img1{
 
     height: 1.4rem;
 
@@ -39,7 +42,7 @@
 
     z-index: -1
     ;
-}
+} */
 .nav-image{
 
     
@@ -57,6 +60,10 @@
 
     list-style: none;
    
+}
+
+.nav-menu li:hover{
+    cursor: pointer;
 }
 
 .underline-img{

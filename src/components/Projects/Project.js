@@ -18,7 +18,7 @@ const Project = () =>{
     return (
 
 
-        <div className="project">
+        <div id="project" className="project">
 
             <h1 className="project-heading"> Projects </h1>
 

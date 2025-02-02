@@ -26,7 +26,7 @@ const Experience = () => {
     return (
 
 
-        <div className='experience'>
+        <div  id='experience' className='experience'>
 
 
             <h1 className='experience-heading'> My Experience</h1>

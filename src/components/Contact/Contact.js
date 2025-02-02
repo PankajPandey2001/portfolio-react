@@ -11,7 +11,7 @@ import img1 from "../../assets/nav_underline.svg";
 const Contact = () => {
 
     return (
-        <div className="contact">
+        <div id="contact" className="contact">
 
             <h1>
                 Get in touch

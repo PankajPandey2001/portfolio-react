@@ -95,9 +95,19 @@
 .nav-connect:hover{
 
     transform: scale(1.05);
-    border: 2px solid white;
+    /* border: 2px solid white; */
 
     z-index: 10;
 
     /* height: 100vh; */
+}
+
+.nav-no-margin{
+
+    margin-bottom: 0px ;
+}
+
+.anchor-link{
+    text-decoration: none;
+    color: white;
 }

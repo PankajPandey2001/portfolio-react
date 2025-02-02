@@ -5,7 +5,7 @@ import img from '../../assets/portimage-top.png' ;
 const Intro = () => {
 
     return (
-        <div className='intro'>
+        <div id='intro' className='intro'>
 
             <img  src={img} alt='image laoding' />
 

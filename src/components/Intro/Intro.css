@@ -92,3 +92,9 @@
     border: 2px solid rgb(215, 105, 215);
 }
 
+
+.anchor-connect-underline{
+    text-decoration: none;
+    color: white;
+}
+

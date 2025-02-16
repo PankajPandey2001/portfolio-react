@@ -108,6 +108,14 @@
 }
 
 .anchor-link{
+    
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.anchor-connect-underline{
     text-decoration: none;
     color: white;
 }

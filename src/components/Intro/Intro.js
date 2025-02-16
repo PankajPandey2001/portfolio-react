@@ -1,6 +1,7 @@
 import './Intro.css';
 
 import img from '../../assets/portimage-top.png' ; 
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Intro = () => {
 
@@ -15,8 +16,8 @@ const Intro = () => {
 
             <div className='intro-footer'>
 
-                <div className='first-div' >
-                    Connect with me 
+                <div className='first-div' >   <AnchorLink href='#contact' className='anchor-connect-underline' > 
+                    Connect with me </AnchorLink>
                 </div>
 
                 <div className='second-div'>

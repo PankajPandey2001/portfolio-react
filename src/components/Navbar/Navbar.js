@@ -46,8 +46,9 @@ const Navbar = () => {
             </ul>
 
 
-             <div className="nav-connect">
+             <div className="nav-connect"> <AnchorLink href="#contact" className='anchor-connect-underline'  > 
                Connect With me
+               </AnchorLink>
              </div>
         </div>
     );
